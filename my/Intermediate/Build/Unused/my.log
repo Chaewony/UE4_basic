@@ -1,0 +1,16 @@
+﻿  Parsing headers for myEditor
+    Running UnrealHeaderTool "C:\Users\USER\Documents\Unreal Projects\my\my.uproject" "C:\Users\USER\Documents\Unreal Projects\my\Intermediate\Build\Win64\myEditor\Development\myEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\USER\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for myEditor in 3.4778338 seconds
+  Building myEditor...
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] MyActor.cpp
+    [2/5] MyActor.gen.cpp
+    [3/5] UE4Editor-my-0002.lib
+       C:\Users\USER\Documents\Unreal Projects\my\Intermediate\Build\Win64\UE4Editor\Development\my\UE4Editor-my-0002.lib 라이브러리 및 C:\Users\USER\Documents\Unreal Projects\my\Intermediate\Build\Win64\UE4Editor\Development\my\UE4Editor-my-0002.exp 개체를 생성하고 있습니다.
+    [4/5] UE4Editor-my-0002.dll
+       C:\Users\USER\Documents\Unreal Projects\my\Intermediate\Build\Win64\UE4Editor\Development\my\UE4Editor-my-0002.suppressed.lib 라이브러리 및 C:\Users\USER\Documents\Unreal Projects\my\Intermediate\Build\Win64\UE4Editor\Development\my\UE4Editor-my-0002.suppressed.exp 개체를 생성하고 있습니다.
+    [5/5] myEditor.target
+  Total time in Parallel executor: 1.49 seconds
+  Total execution time: 5.65 seconds
