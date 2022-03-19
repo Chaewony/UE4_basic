@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "my",
-			"Path": "C:\\Users\\USER\\Documents\\Unreal Projects\\my\\Source\\my.Target.cs",
+			"Path": "C:\\Users\\USER\\Documents\\GitHub\\UE4_basic\\my\\Source\\my.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "myEditor",
-			"Path": "C:\\Users\\USER\\Documents\\Unreal Projects\\my\\Source\\myEditor.Target.cs",
+			"Path": "C:\\Users\\USER\\Documents\\GitHub\\UE4_basic\\my\\Source\\myEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

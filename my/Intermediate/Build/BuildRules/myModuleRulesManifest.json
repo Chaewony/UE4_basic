@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\USER\\Documents\\Unreal Projects\\my\\Source\\my\\my.Build.cs",
-		"C:\\Users\\USER\\Documents\\Unreal Projects\\my\\Source\\my.Target.cs",
-		"C:\\Users\\USER\\Documents\\Unreal Projects\\my\\Source\\myEditor.Target.cs"
+		"C:\\Users\\USER\\Documents\\GitHub\\UE4_basic\\my\\Source\\my\\my.Build.cs",
+		"C:\\Users\\USER\\Documents\\GitHub\\UE4_basic\\my\\Source\\my.Target.cs",
+		"C:\\Users\\USER\\Documents\\GitHub\\UE4_basic\\my\\Source\\myEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }

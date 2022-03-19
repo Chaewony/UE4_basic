@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3238ECDF-9390-4CAE-B258-B4F9C725F0D6}</ProjectGuid>
+    <ProjectGuid>{148543DA-C62C-4F3D-8953-BFC7CBDBB79E}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>my</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

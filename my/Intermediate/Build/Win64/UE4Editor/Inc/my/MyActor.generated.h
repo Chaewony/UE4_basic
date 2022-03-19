@@ -58,7 +58,12 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyActor)
 
 
-#define my_Source_my_MyActor_h_12_PRIVATE_PROPERTY_OFFSET
+#define my_Source_my_MyActor_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AMyActor, Mesh); } \
+	FORCEINLINE static uint32 __PPO__Hp() { return STRUCT_OFFSET(AMyActor, Hp); } \
+	FORCEINLINE static uint32 __PPO__Mp() { return STRUCT_OFFSET(AMyActor, Mp); }
+
+
 #define my_Source_my_MyActor_h_9_PROLOG
 #define my_Source_my_MyActor_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

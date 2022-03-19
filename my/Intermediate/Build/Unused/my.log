@@ -1,16 +1,24 @@
-﻿  Parsing headers for myEditor
-    Running UnrealHeaderTool "C:\Users\USER\Documents\Unreal Projects\my\my.uproject" "C:\Users\USER\Documents\Unreal Projects\my\Intermediate\Build\Win64\myEditor\Development\myEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\USER\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+﻿  Cleaning myEditor and UnrealHeaderTool binaries...
+UnrealBuildTool : error : Unable to delete C:\Users\USER\Documents\GitHub\UE4_basic\my\Binaries\Win64\UE4Editor-my.dll (Unable to delete 'C:\Users\USER\Documents\GitHub\UE4_basic\my\Binaries\Win64\UE4Editor-my.dll': 'C:\Users\USER\Documents\GitHub\UE4_basic\my\Binaries\Win64\UE4Editor-my.dll' 경로에 대한 액세스가 거부되었습니다.)
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\USER\Documents\GitHub\UE4_basic).
+  Creating makefile for myEditor (no existing makefile)
+  Parsing headers for myEditor
+    Running UnrealHeaderTool "C:\Users\USER\Documents\GitHub\UE4_basic\my\my.uproject" "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\myEditor\Development\myEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\USER\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
   LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for myEditor in 3.4778338 seconds
+  Reflection code generated for myEditor in 3.6282533 seconds
   Building myEditor...
   Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    [1/5] MyActor.cpp
-    [2/5] MyActor.gen.cpp
-    [3/5] UE4Editor-my-0002.lib
-       C:\Users\USER\Documents\Unreal Projects\my\Intermediate\Build\Win64\UE4Editor\Development\my\UE4Editor-my-0002.lib 라이브러리 및 C:\Users\USER\Documents\Unreal Projects\my\Intermediate\Build\Win64\UE4Editor\Development\my\UE4Editor-my-0002.exp 개체를 생성하고 있습니다.
-    [4/5] UE4Editor-my-0002.dll
-       C:\Users\USER\Documents\Unreal Projects\my\Intermediate\Build\Win64\UE4Editor\Development\my\UE4Editor-my-0002.suppressed.lib 라이브러리 및 C:\Users\USER\Documents\Unreal Projects\my\Intermediate\Build\Win64\UE4Editor\Development\my\UE4Editor-my-0002.suppressed.exp 개체를 생성하고 있습니다.
-    [5/5] myEditor.target
-  Total time in Parallel executor: 1.49 seconds
-  Total execution time: 5.65 seconds
+  Building 11 actions with 8 processes...
+    [1/11] Default.rc2
+    [2/11] SharedPCH.Engine.ShadowErrors.cpp
+    [3/11] my.cpp
+    [4/11] my.init.gen.cpp
+    [5/11] MyActor.cpp
+    [6/11] myGameModeBase.cpp
+    [7/11] MyActor.gen.cpp
+    [8/11] myGameModeBase.gen.cpp
+    [9/11] UE4Editor-my-0001.lib
+       C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\UE4Editor-my-0001.lib 라이브러리 및 C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\UE4Editor-my-0001.exp 개체를 생성하고 있습니다.
+    [10/11] UE4Editor-my-0001.dll
+LINK : fatal error LNK1104: 'C:\Users\USER\Documents\GitHub\UE4_basic\my\Binaries\Win64\UE4Editor-my-0001.dll' 파일을 열 수 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(51,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat" myEditor Win64 Development -Project="C:\Users\USER\Documents\GitHub\UE4_basic\my\my.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: -1).
