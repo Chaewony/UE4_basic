@@ -61,7 +61,8 @@ public: \
 #define my_Source_my_MyActor_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AMyActor, Mesh); } \
 	FORCEINLINE static uint32 __PPO__Hp() { return STRUCT_OFFSET(AMyActor, Hp); } \
-	FORCEINLINE static uint32 __PPO__Mp() { return STRUCT_OFFSET(AMyActor, Mp); }
+	FORCEINLINE static uint32 __PPO__Mp() { return STRUCT_OFFSET(AMyActor, Mp); } \
+	FORCEINLINE static uint32 __PPO__RotateSpeed() { return STRUCT_OFFSET(AMyActor, RotateSpeed); }
 
 
 #define my_Source_my_MyActor_h_9_PROLOG
