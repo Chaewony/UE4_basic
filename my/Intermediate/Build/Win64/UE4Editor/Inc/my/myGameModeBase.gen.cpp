@@ -5,27 +5,27 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "my/myGameModeBase.h"
+#include "my/MyGameModeBase.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-void EmptyLinkFunctionForGeneratedCodemyGameModeBase() {}
+void EmptyLinkFunctionForGeneratedCodeMyGameModeBase() {}
 // Cross Module References
-	MY_API UClass* Z_Construct_UClass_AmyGameModeBase_NoRegister();
-	MY_API UClass* Z_Construct_UClass_AmyGameModeBase();
+	MY_API UClass* Z_Construct_UClass_AMyGameModeBase_NoRegister();
+	MY_API UClass* Z_Construct_UClass_AMyGameModeBase();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_my();
 // End Cross Module References
-	void AmyGameModeBase::StaticRegisterNativesAmyGameModeBase()
+	void AMyGameModeBase::StaticRegisterNativesAMyGameModeBase()
 	{
 	}
-	UClass* Z_Construct_UClass_AmyGameModeBase_NoRegister()
+	UClass* Z_Construct_UClass_AMyGameModeBase_NoRegister()
 	{
-		return AmyGameModeBase::StaticClass();
+		return AMyGameModeBase::StaticClass();
 	}
-	struct Z_Construct_UClass_AmyGameModeBase_Statics
+	struct Z_Construct_UClass_AMyGameModeBase_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
 #if WITH_METADATA
@@ -34,24 +34,24 @@ void EmptyLinkFunctionForGeneratedCodemyGameModeBase() {}
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
-	UObject* (*const Z_Construct_UClass_AmyGameModeBase_Statics::DependentSingletons[])() = {
+	UObject* (*const Z_Construct_UClass_AMyGameModeBase_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AGameModeBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_my,
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmyGameModeBase_Statics::Class_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyGameModeBase_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
-		{ "IncludePath", "myGameModeBase.h" },
-		{ "ModuleRelativePath", "myGameModeBase.h" },
+		{ "IncludePath", "MyGameModeBase.h" },
+		{ "ModuleRelativePath", "MyGameModeBase.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
-	const FCppClassTypeInfoStatic Z_Construct_UClass_AmyGameModeBase_Statics::StaticCppClassTypeInfo = {
-		TCppClassTypeTraits<AmyGameModeBase>::IsAbstract,
+	const FCppClassTypeInfoStatic Z_Construct_UClass_AMyGameModeBase_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<AMyGameModeBase>::IsAbstract,
 	};
-	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AmyGameModeBase_Statics::ClassParams = {
-		&AmyGameModeBase::StaticClass,
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AMyGameModeBase_Statics::ClassParams = {
+		&AMyGameModeBase::StaticClass,
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
@@ -63,24 +63,24 @@ void EmptyLinkFunctionForGeneratedCodemyGameModeBase() {}
 		0,
 		0,
 		0x009002ACu,
-		METADATA_PARAMS(Z_Construct_UClass_AmyGameModeBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AmyGameModeBase_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_AMyGameModeBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMyGameModeBase_Statics::Class_MetaDataParams))
 	};
-	UClass* Z_Construct_UClass_AmyGameModeBase()
+	UClass* Z_Construct_UClass_AMyGameModeBase()
 	{
 		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
-			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_AmyGameModeBase_Statics::ClassParams);
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_AMyGameModeBase_Statics::ClassParams);
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AmyGameModeBase, 2344621154);
-	template<> MY_API UClass* StaticClass<AmyGameModeBase>()
+	IMPLEMENT_CLASS(AMyGameModeBase, 2444046040);
+	template<> MY_API UClass* StaticClass<AMyGameModeBase>()
 	{
-		return AmyGameModeBase::StaticClass();
+		return AMyGameModeBase::StaticClass();
 	}
-	static FCompiledInDefer Z_CompiledInDefer_UClass_AmyGameModeBase(Z_Construct_UClass_AmyGameModeBase, &AmyGameModeBase::StaticClass, TEXT("/Script/my"), TEXT("AmyGameModeBase"), false, nullptr, nullptr, nullptr);
-	DEFINE_VTABLE_PTR_HELPER_CTOR(AmyGameModeBase);
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyGameModeBase(Z_Construct_UClass_AMyGameModeBase, &AMyGameModeBase::StaticClass, TEXT("/Script/my"), TEXT("AMyGameModeBase"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyGameModeBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

@@ -1,7 +1,9 @@
 C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\Definitions.my.h
-C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\myGameModeBase.h
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\MyGameModeBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\myGameModeBase.generated.h
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\MyGameModeBase.generated.h
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\MyPawn.h
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\MyPawn.generated.h

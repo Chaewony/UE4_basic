@@ -265,9 +265,9 @@
 /FI"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\myEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Yu"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\myEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\myEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\myGameModeBase.gen.cpp"
+"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\MyGameModeBase.gen.cpp"
 /FI"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\Definitions.my.h"
-/Fo"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\myGameModeBase.gen.cpp.obj"
+/Fo"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4
