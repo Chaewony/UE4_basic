@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\my.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{538D2642-09A2-4685-9F5D-4918AB373617}</UniqueIdentifier>
+      <UniqueIdentifier>{DB1E7EE8-DBE0-4A52-AF8F-424972A50423}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\my.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{EE671CAE-EAC7-45E0-8547-9F0E2E58B0BF}</UniqueIdentifier>
+      <UniqueIdentifier>{4A087C35-10D1-40C0-94E3-860C5819F01B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\my">
-      <UniqueIdentifier>{400EF8CC-8BD8-4E98-A987-F8A46115A586}</UniqueIdentifier>
+      <UniqueIdentifier>{029CCBFE-F5AE-42A8-9370-88D1F0E5AC69}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\my\my.Build.cs">
       <Filter>Source\my</Filter>
@@ -36,12 +36,6 @@
       <Filter>Source\my</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\my\my.h">
-      <Filter>Source\my</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\my\MyActor.cpp">
-      <Filter>Source\my</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\my\MyActor.h">
       <Filter>Source\my</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\my\MyCharacter.cpp">
@@ -54,12 +48,6 @@
       <Filter>Source\my</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\my\MyGameModeBase.h">
-      <Filter>Source\my</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\my\MyPawn.cpp">
-      <Filter>Source\my</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\my\MyPawn.h">
       <Filter>Source\my</Filter>
     </ClInclude>
   </ItemGroup>

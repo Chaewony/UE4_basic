@@ -1,3 +1,0 @@
-C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\Definitions.my.h
-C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\MyActor.h
-C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\MyActor.generated.h
