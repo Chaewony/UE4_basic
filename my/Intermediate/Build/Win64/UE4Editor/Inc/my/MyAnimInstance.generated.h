@@ -61,7 +61,8 @@ public: \
 
 
 #define my_Source_my_MyAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(UMyAnimInstance, Speed); }
+	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(UMyAnimInstance, Speed); } \
+	FORCEINLINE static uint32 __PPO__isFalling() { return STRUCT_OFFSET(UMyAnimInstance, isFalling); }
 
 
 #define my_Source_my_MyAnimInstance_h_12_PROLOG
