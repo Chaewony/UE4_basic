@@ -35,9 +35,11 @@
 /FUNCTIONPADMIN
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\myEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\my.cpp.obj"
+"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyAnimInstance.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyCharacter.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyGameModeBase.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\my.init.gen.cpp.obj"
+"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyAnimInstance.gen.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyCharacter.gen.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyGameModeBase.gen.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\Default.rc2.res"

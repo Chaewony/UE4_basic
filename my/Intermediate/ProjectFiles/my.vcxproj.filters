@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\my.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DB1E7EE8-DBE0-4A52-AF8F-424972A50423}</UniqueIdentifier>
+      <UniqueIdentifier>{FC3B79CF-E780-4183-9692-3F7524F16D7B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\my.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4A087C35-10D1-40C0-94E3-860C5819F01B}</UniqueIdentifier>
+      <UniqueIdentifier>{F23679B2-C7F3-496E-9564-5009538DB563}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\my">
-      <UniqueIdentifier>{029CCBFE-F5AE-42A8-9370-88D1F0E5AC69}</UniqueIdentifier>
+      <UniqueIdentifier>{EFC94AFA-D59F-4CE5-BD0B-94803F5D260D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\my\my.Build.cs">
       <Filter>Source\my</Filter>
@@ -36,6 +36,12 @@
       <Filter>Source\my</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\my\my.h">
+      <Filter>Source\my</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\my\MyAnimInstance.cpp">
+      <Filter>Source\my</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\my\MyAnimInstance.h">
       <Filter>Source\my</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\my\MyCharacter.cpp">
