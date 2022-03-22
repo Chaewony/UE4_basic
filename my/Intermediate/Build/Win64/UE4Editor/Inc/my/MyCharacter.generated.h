@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UAnimMontage;
 #ifdef MY_MyCharacter_generated_h
 #error "MyCharacter.generated.h already included, missing '#pragma once' in MyCharacter.h"
 #endif
 #define MY_MyCharacter_generated_h
 
 #define my_Source_my_MyCharacter_h_12_SPARSE_DATA
-#define my_Source_my_MyCharacter_h_12_RPC_WRAPPERS
-#define my_Source_my_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define my_Source_my_MyCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnAttackMontageEnded);
+
+
+#define my_Source_my_MyCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnAttackMontageEnded);
+
+
 #define my_Source_my_MyCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \
@@ -60,7 +69,9 @@ public: \
 
 #define my_Source_my_MyCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(AMyCharacter, SpringArm); } \
-	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AMyCharacter, Camera); }
+	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AMyCharacter, Camera); } \
+	FORCEINLINE static uint32 __PPO__isAttacking() { return STRUCT_OFFSET(AMyCharacter, isAttacking); } \
+	FORCEINLINE static uint32 __PPO__AnimInstance() { return STRUCT_OFFSET(AMyCharacter, AnimInstance); }
 
 
 #define my_Source_my_MyCharacter_h_9_PROLOG
