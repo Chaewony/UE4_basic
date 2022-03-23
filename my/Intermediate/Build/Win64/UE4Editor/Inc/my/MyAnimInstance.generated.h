@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MY_MyAnimInstance_generated_h
 
 #define my_Source_my_MyAnimInstance_h_15_SPARSE_DATA
-#define my_Source_my_MyAnimInstance_h_15_RPC_WRAPPERS
-#define my_Source_my_MyAnimInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define my_Source_my_MyAnimInstance_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_AttackHit);
+
+
+#define my_Source_my_MyAnimInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_AttackHit);
+
+
 #define my_Source_my_MyAnimInstance_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyAnimInstance(); \

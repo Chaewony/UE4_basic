@@ -71,7 +71,8 @@ public: \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(AMyCharacter, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AMyCharacter, Camera); } \
 	FORCEINLINE static uint32 __PPO__isAttacking() { return STRUCT_OFFSET(AMyCharacter, isAttacking); } \
-	FORCEINLINE static uint32 __PPO__AnimInstance() { return STRUCT_OFFSET(AMyCharacter, AnimInstance); }
+	FORCEINLINE static uint32 __PPO__AnimInstance() { return STRUCT_OFFSET(AMyCharacter, AnimInstance); } \
+	FORCEINLINE static uint32 __PPO__AttackIndex() { return STRUCT_OFFSET(AMyCharacter, AttackIndex); }
 
 
 #define my_Source_my_MyCharacter_h_9_PROLOG
