@@ -15,3 +15,5 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\MyCharacter.h
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\MyCharacter.generated.h
