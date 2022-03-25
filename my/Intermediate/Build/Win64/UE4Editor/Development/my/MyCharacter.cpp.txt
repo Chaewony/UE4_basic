@@ -18,3 +18,5 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\MyAnimInstance.h
 C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\MyAnimInstance.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\MyWeapon.h
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\MyWeapon.generated.h

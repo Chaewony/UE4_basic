@@ -1,0 +1,8 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\USER\Documents\GitHub\UE4_basic).
+  Building myEditor...
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] MyCharacter.cpp
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\MyCharacter.cpp(56): error C4458: 'Weapon' 선언은 클래스 멤버를 숨깁니다.
+    C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\MyCharacter.h(66): note: 'AMyCharacter::Weapon' 선언을 참조하십시오.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.27\Engine\Build\BatchFiles\Build.bat" myEditor Win64 Development -Project="C:\Users\USER\Documents\GitHub\UE4_basic\my\my.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 6).
