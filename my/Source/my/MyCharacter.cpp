@@ -8,6 +8,7 @@
 #include "MyAnimInstance.h"
 #include "DrawDebugHelpers.h"
 #include "MyWeapon.h"
+#include "MyStatComponent.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -44,6 +45,8 @@ AMyCharacter::AMyCharacter()
 		}
 		Weapon->SetupAttachment(GetMesh(), WeaponSocket);
 	}*/
+
+	Stat = CreateDefaultSubobject<UMyStatComponent>(TEXT("STAT"));
 }
 
 // Called when the game starts or when spawned
@@ -139,6 +142,9 @@ void AMyCharacter::AttackCheck()
 
 	if (bResult && HitResult.Actor.IsValid()) {
 		UE_LOG(LogTemp, Log, TEXT("Hit Actor : %s"), *HitResult.Actor->GetName());
+
+		FDamageEvent DamageEvent;
+		HitResult.Actor->TakeDamage(Stat->GetAttack(), DamageEvent, GetController(), this);
 	}
 }
 
@@ -166,5 +172,11 @@ void AMyCharacter::Yaw(float Value)
 void AMyCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool binterrupted)
 {
 	isAttacking = false;
+}
+
+float AMyCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	Stat->OnAttacked(DamageAmount);
+	return DamageAmount;
 }
 

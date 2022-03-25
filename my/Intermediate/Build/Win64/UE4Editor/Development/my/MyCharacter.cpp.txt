@@ -20,3 +20,5 @@ C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\I
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\MyWeapon.h
 C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\MyWeapon.generated.h
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Source\my\MyStatComponent.h
+C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Inc\my\MyStatComponent.generated.h
