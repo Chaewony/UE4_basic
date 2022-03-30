@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\my.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CD83EA58-6818-476C-BC97-945A6FD2D536}</UniqueIdentifier>
+      <UniqueIdentifier>{43A5969C-C8B4-4BCB-B02C-D65661A1DEE8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\my.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{91704971-0CD0-474F-9044-808924028D37}</UniqueIdentifier>
+      <UniqueIdentifier>{B718F122-8D13-4079-879A-50FFE368DCBB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\my">
-      <UniqueIdentifier>{8586B8E0-D77A-40A5-8486-8DB1A3226ACD}</UniqueIdentifier>
+      <UniqueIdentifier>{3E1E915B-255B-47CC-AD99-C48FD329AC4E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\my\my.Build.cs">
       <Filter>Source\my</Filter>
@@ -48,6 +48,12 @@
       <Filter>Source\my</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\my\MyCharacter.h">
+      <Filter>Source\my</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\my\MyCharacterWidget.cpp">
+      <Filter>Source\my</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\my\MyCharacterWidget.h">
       <Filter>Source\my</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\my\MyGameInstance.cpp">

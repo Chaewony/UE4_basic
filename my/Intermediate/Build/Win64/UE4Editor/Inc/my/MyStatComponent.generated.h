@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MY_MyStatComponent_generated_h
 
-#define my_Source_my_MyStatComponent_h_13_SPARSE_DATA
-#define my_Source_my_MyStatComponent_h_13_RPC_WRAPPERS
-#define my_Source_my_MyStatComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define my_Source_my_MyStatComponent_h_13_INCLASS_NO_PURE_DECLS \
+#define my_Source_my_MyStatComponent_h_14_SPARSE_DATA
+#define my_Source_my_MyStatComponent_h_14_RPC_WRAPPERS
+#define my_Source_my_MyStatComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define my_Source_my_MyStatComponent_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyStatComponent(); \
 	friend struct Z_Construct_UClass_UMyStatComponent_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UMyStatComponent)
 
 
-#define my_Source_my_MyStatComponent_h_13_INCLASS \
+#define my_Source_my_MyStatComponent_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyStatComponent(); \
 	friend struct Z_Construct_UClass_UMyStatComponent_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UMyStatComponent)
 
 
-#define my_Source_my_MyStatComponent_h_13_STANDARD_CONSTRUCTORS \
+#define my_Source_my_MyStatComponent_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyStatComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyStatComponent) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define my_Source_my_MyStatComponent_h_13_ENHANCED_CONSTRUCTORS \
+#define my_Source_my_MyStatComponent_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMyStatComponent(UMyStatComponent&&); \
@@ -58,33 +58,34 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMyStatComponent)
 
 
-#define my_Source_my_MyStatComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+#define my_Source_my_MyStatComponent_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Level() { return STRUCT_OFFSET(UMyStatComponent, Level); } \
 	FORCEINLINE static uint32 __PPO__Hp() { return STRUCT_OFFSET(UMyStatComponent, Hp); } \
+	FORCEINLINE static uint32 __PPO__MaxHp() { return STRUCT_OFFSET(UMyStatComponent, MaxHp); } \
 	FORCEINLINE static uint32 __PPO__Attack() { return STRUCT_OFFSET(UMyStatComponent, Attack); }
 
 
-#define my_Source_my_MyStatComponent_h_10_PROLOG
-#define my_Source_my_MyStatComponent_h_13_GENERATED_BODY_LEGACY \
+#define my_Source_my_MyStatComponent_h_11_PROLOG
+#define my_Source_my_MyStatComponent_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	my_Source_my_MyStatComponent_h_13_PRIVATE_PROPERTY_OFFSET \
-	my_Source_my_MyStatComponent_h_13_SPARSE_DATA \
-	my_Source_my_MyStatComponent_h_13_RPC_WRAPPERS \
-	my_Source_my_MyStatComponent_h_13_INCLASS \
-	my_Source_my_MyStatComponent_h_13_STANDARD_CONSTRUCTORS \
+	my_Source_my_MyStatComponent_h_14_PRIVATE_PROPERTY_OFFSET \
+	my_Source_my_MyStatComponent_h_14_SPARSE_DATA \
+	my_Source_my_MyStatComponent_h_14_RPC_WRAPPERS \
+	my_Source_my_MyStatComponent_h_14_INCLASS \
+	my_Source_my_MyStatComponent_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define my_Source_my_MyStatComponent_h_13_GENERATED_BODY \
+#define my_Source_my_MyStatComponent_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	my_Source_my_MyStatComponent_h_13_PRIVATE_PROPERTY_OFFSET \
-	my_Source_my_MyStatComponent_h_13_SPARSE_DATA \
-	my_Source_my_MyStatComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	my_Source_my_MyStatComponent_h_13_INCLASS_NO_PURE_DECLS \
-	my_Source_my_MyStatComponent_h_13_ENHANCED_CONSTRUCTORS \
+	my_Source_my_MyStatComponent_h_14_PRIVATE_PROPERTY_OFFSET \
+	my_Source_my_MyStatComponent_h_14_SPARSE_DATA \
+	my_Source_my_MyStatComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	my_Source_my_MyStatComponent_h_14_INCLASS_NO_PURE_DECLS \
+	my_Source_my_MyStatComponent_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -40,6 +40,10 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Hp;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxHp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_MaxHp;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Attack_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Attack;
@@ -76,6 +80,14 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Hp = { "Hp", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyStatComponent, Hp), METADATA_PARAMS(Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Hp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Hp_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyStatComponent_Statics::NewProp_MaxHp_MetaData[] = {
+		{ "AllowPrivateAccecc", "TRUE" },
+		{ "Category", "Stat" },
+		{ "ModuleRelativePath", "MyStatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UMyStatComponent_Statics::NewProp_MaxHp = { "MaxHp", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyStatComponent, MaxHp), METADATA_PARAMS(Z_Construct_UClass_UMyStatComponent_Statics::NewProp_MaxHp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyStatComponent_Statics::NewProp_MaxHp_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Attack_MetaData[] = {
 		{ "AllowPrivateAccecc", "TRUE" },
 		{ "Category", "Stat" },
@@ -86,6 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyStatComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Level,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Hp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyStatComponent_Statics::NewProp_MaxHp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyStatComponent_Statics::NewProp_Attack,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UMyStatComponent_Statics::StaticCppClassTypeInfo = {
@@ -115,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeMyStatComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyStatComponent, 1468517382);
+	IMPLEMENT_CLASS(UMyStatComponent, 32932199);
 	template<> MY_API UClass* StaticClass<UMyStatComponent>()
 	{
 		return UMyStatComponent::StaticClass();

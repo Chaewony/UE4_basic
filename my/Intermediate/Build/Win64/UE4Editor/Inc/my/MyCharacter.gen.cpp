@@ -23,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	MY_API UClass* Z_Construct_UClass_UMyAnimInstance_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	MY_API UClass* Z_Construct_UClass_UMyStatComponent_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AMyCharacter::execOnAttackMontageEnded)
 	{
@@ -130,6 +131,10 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Stat_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Stat;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HpBar_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HpBar;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -215,6 +220,14 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_Stat = { "Stat", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, Stat), Z_Construct_UClass_UMyStatComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Stat_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_Stat_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacter_Statics::NewProp_HpBar_MetaData[] = {
+		{ "Category", "MyCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MyCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacter_Statics::NewProp_HpBar = { "HpBar", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacter, HpBar), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacter_Statics::NewProp_HpBar_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacter_Statics::NewProp_HpBar_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Camera,
@@ -225,6 +238,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_LeftRightValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Weapon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_Stat,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacter_Statics::NewProp_HpBar,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMyCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMyCharacter>::IsAbstract,
@@ -253,7 +267,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacter, 3733642214);
+	IMPLEMENT_CLASS(AMyCharacter, 1039741816);
 	template<> MY_API UClass* StaticClass<AMyCharacter>()
 	{
 		return AMyCharacter::StaticClass();
