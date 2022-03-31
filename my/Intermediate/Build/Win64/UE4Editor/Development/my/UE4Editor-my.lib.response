@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\myEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\BTTask_FindPatrolPos.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\my.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyAIController.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyAnimInstance.cpp.obj"
@@ -16,6 +17,7 @@
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyGameModeBase.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyStatComponent.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyWeapon.cpp.obj"
+"C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\BTTask_FindPatrolPos.gen.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\my.init.gen.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyAIController.gen.cpp.obj"
 "C:\Users\USER\Documents\GitHub\UE4_basic\my\Intermediate\Build\Win64\UE4Editor\Development\my\MyAnimInstance.gen.cpp.obj"
