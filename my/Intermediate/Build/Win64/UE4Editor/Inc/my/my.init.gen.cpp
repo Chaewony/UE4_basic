@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodemy_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xEF731175,
-				0x3A50DB2B,
+				0xD5311C32,
+				0x41ECA3E7,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

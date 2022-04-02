@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\my.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C4130D12-D405-40AE-A147-F108E3E9D51D}</UniqueIdentifier>
+      <UniqueIdentifier>{43613AA2-E107-4CD3-8C22-F1FC987EC202}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\my.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{327B58A5-45F2-4BB1-AA9D-D029DD255A8C}</UniqueIdentifier>
+      <UniqueIdentifier>{9484DAEB-447F-403D-A1FA-072DCA4434DA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\my">
-      <UniqueIdentifier>{477B5442-6E95-4FED-AC1F-B37181F9EC45}</UniqueIdentifier>
+      <UniqueIdentifier>{31258D04-4B95-471B-8136-5090AC62FEED}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\my\BTService_SearchTarget.cpp">
+      <Filter>Source\my</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\my\BTService_SearchTarget.h">
+      <Filter>Source\my</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\my\BTTask_Attack.cpp">
+      <Filter>Source\my</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\my\BTTask_Attack.h">
+      <Filter>Source\my</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\my\BTTask_FindPatrolPos.cpp">
       <Filter>Source\my</Filter>
     </ClCompile>
@@ -54,6 +66,12 @@
       <Filter>Source\my</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\my\MyAnimInstance.h">
+      <Filter>Source\my</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\my\MyBTDecorator_CanAttack.cpp">
+      <Filter>Source\my</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\my\MyBTDecorator_CanAttack.h">
       <Filter>Source\my</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\my\MyCharacter.cpp">
